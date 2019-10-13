@@ -1,5 +1,15 @@
 ## Welcome to GitHub Pages
 
+Give these to clone this repository.
+git clone https://github.com/rakeshrinawa/Web-Dev-Cheet-Sheets.git
+// Open terminal and cd into the Web-Dev-Cheat-Sheets forlder
+git init
+// Now open whole folder in Code Editor and make changes and save all the changes.
+git add .
+git commit -m "My commit message"
+git push
+
+
 You can use the [editor on GitHub](https://github.com/rakeshrinawa/Web-Dev-Cheet-Sheets/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
