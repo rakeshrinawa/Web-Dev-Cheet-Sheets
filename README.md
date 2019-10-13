@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-Give these to clone this repository.
+Give these commands to clone this repository.
 
 git clone https://github.com/rakeshrinawa/Web-Dev-Cheet-Sheets.git
 
