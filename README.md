@@ -1,6 +1,7 @@
 ## Welcome to GitHub Pages
 
 Give these to clone this repository.
+
 git clone https://github.com/rakeshrinawa/Web-Dev-Cheet-Sheets.git
 
 // Open terminal and cd into the Web-Dev-Cheat-Sheets forlder
