@@ -2,11 +2,17 @@
 
 Give these to clone this repository.
 git clone https://github.com/rakeshrinawa/Web-Dev-Cheet-Sheets.git
+
 // Open terminal and cd into the Web-Dev-Cheat-Sheets forlder
+
 git init
+
 // Now open whole folder in Code Editor and make changes and save all the changes.
+
 git add .
+
 git commit -m "My commit message"
+
 git push
 
 
