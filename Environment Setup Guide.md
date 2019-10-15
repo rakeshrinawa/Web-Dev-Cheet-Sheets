@@ -1,4 +1,4 @@
-## Welcome to Installation Guide
+## Welcome to Setup Guide
 
 Here I list all the commands or links you need to setup Developer Environment to learn or develop your Passionful projects.
 
