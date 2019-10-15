@@ -16,6 +16,10 @@ git commit -m "My commit message"
 
 git push
 
+// To give all the commands at once.
+
+git add . && git commit -m "My commit message" && git push
+
 
 You can use the [editor on GitHub](https://github.com/rakeshrinawa/Web-Dev-Cheet-Sheets/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 

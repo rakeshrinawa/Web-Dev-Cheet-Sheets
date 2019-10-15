@@ -1,10 +1,7 @@
-/* * {
-    /* To reset some properties */
-margin: 0;
-padding: 0;
-}
+body {
+    border: 2px red solid;
 
-*/ body {
+
     background-color: #f4f4f4;
     /* light Grey Color */
     color: #555555;
@@ -16,7 +13,6 @@ padding: 0;
     font-size: 16px;
     font-weight: normal; */
     line-height: 1.6em;
-
 }
 
 a {
@@ -33,16 +29,35 @@ a:hover {
 }
 
 a:active {
-    color: blue;
+    color: yellow;
     background-color: skyblue;
 }
-
-
 
 .container {
     width: 80%;
     /* Use % for container classes */
     margin: auto;
+}
+
+.clr {
+    /* To clear any floats or overlapping */
+    clear: both;
+}
+
+.block {
+    float: left;
+    width: 30%;
+    margin: 5px;
+    padding: 10px;
+    border: 2px green solid;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #48c529;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
 }
 
 .box-1 {
@@ -58,7 +73,7 @@ a:active {
 
 .box-1 h1 {
     font-family: Tahoma;
-    font-weight: 800;
+    font-weight: 1000;
     font-style: italic;
     text-decoration: underline;
     text-transform: uppercase;
@@ -73,7 +88,7 @@ a:active {
 }
 
 .categories {
-    border: 4px green solid;
+    border: 10px green solid;
     padding: 10px;
     border-radius: 25px;
 }
@@ -91,10 +106,87 @@ a:active {
 
 .categories li {
     padding-bottom: 6px;
-    border-bottom: dotted 1px #333;
+    border-bottom: dotted 10px #333;
     margin: 35px;
     list-style-image: url('../images/check.png');
 
+}
+
+.my-form {
+    /* background-color: brown; */
+    padding: 20px;
+    border: 20px red;
+}
+
+.my-form .form-group {
+    padding-bottom: 15px;
+}
+
+.my-form label {
+    display: block;
+}
+
+.my-form input[type="text"],
+.my-form textarea {
+    padding: 10px;
+    width: 95%;
+
+}
+
+#main-block {
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #333;
+    color: white;
+
+}
+
+.p-box {
+    width: 600px;
+    height: 500px;
+    border: 1px solid #000;
+    position: relative;
+    background-image: url("../bgimage.png");
+    background-repeat: no-repeat;
+    background-position: 100px 200px;
+    background-position: center center;
+}
+
+.p-box h1 {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+.fix-me {
+    position: fixed;
+    top: 60px;
+    /* Can be used to place navbars and fixed layouts */
+}
+
+.my-list li:first-child {
+    background: red;
+}
+
+.my-list li:last-child {
+    background: blue;
+}
+
+.my-list li:nth-child(5) {
+    background: yellow;
+}
+
+.my-list li:nth-child(even) {
+    background: grey;
 }
 
 #image1 {
