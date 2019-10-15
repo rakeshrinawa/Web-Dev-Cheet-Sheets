@@ -10,6 +10,8 @@ git init
 
 // Now open whole folder in Code Editor and make changes and save all the changes.
 
+git pull
+
 git add .
 
 git commit -m "My commit message"
