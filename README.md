@@ -1,4 +1,31 @@
-## Welcome to GitHub Pages
+## Welcome to Web-Dev Course
+
+Order of learning :-
+
+--> HTML Course
+
+--> CSS Course
+
+--> JS Course
+
+--> Fetch API Course
+
+--> Vanilla JS Course
+
+--> JSON Course
+    
+--> Node.js Course
+
+--> Express Course
+
+--> MongoDB Course
+
+--> Authentication Course
+
+--> JWT Course
+
+-->  BootStrap Course 
+
 
 Give these commands to clone this repository.
 
