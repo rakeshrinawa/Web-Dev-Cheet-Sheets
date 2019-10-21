@@ -10,6 +10,8 @@ Order of learning :-
 
 --> JS DOM Crash Course
 
+-->  BootStrap Course 
+
 --> Fetch API Course
 
 --> Vanilla JS Course
@@ -26,7 +28,7 @@ Order of learning :-
 
 --> JWT Course
 
--->  BootStrap Course 
+
 
 
 Give these commands to clone this repository.
