@@ -8,6 +8,8 @@ Order of learning :-
 
 --> JS Course
 
+--> JS DOM Crash Course
+
 --> Fetch API Course
 
 --> Vanilla JS Course
