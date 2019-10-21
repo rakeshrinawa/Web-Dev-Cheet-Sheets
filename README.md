@@ -10,11 +10,15 @@ Order of learning :-
 
 --> JS DOM Crash Course
 
--->  BootStrap Course 
-
---> Fetch API Course
-
 --> Vanilla JS Course
+
+--> JS Booklist App Course
+
+--> OOP Course
+
+--> BootStrap Course
+ 
+--> Fetch API Course
 
 --> JSON Course
     
