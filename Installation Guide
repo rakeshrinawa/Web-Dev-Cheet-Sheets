@@ -1,8 +1,14 @@
 1. Download Ubuntu for your System from Official site/Windows from CD.
+
 2. Use Balena Etcher for burning your images on Pendrive.
+
 If using any USB adapter on your system, install its drivers properly to use WiFi.
+
 3. Install VS Code and enable extensions like live-server, code formatter, etc..
+
 4. Install Node/npm from official source.
+https://nodejs.org/en/download/
+
 5. Install mongodb using the Guide.
 https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
 Direct download link-> https://www.mongodb.com/download-center/community?jmp=docs
