@@ -12,6 +12,11 @@ https://nodejs.org/en/download/
 5. Install mongodb using the Guide.
 https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
 Direct download link-> https://www.mongodb.com/download-center/community?jmp=docs
+To run the MongoDB service :- 
+"C:\Program Files\MongoDB\Server\4.2\bin\mongo.exe"
 
 6. Install Git and learn basic commands of git to use github.
+
+7. Install Postman from the link.
+https://www.getpostman.com/downloads/
 
