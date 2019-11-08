@@ -1,6 +1,7 @@
 1. Download Ubuntu for your System from Official site/Windows from CD.
 
 2. Use Balena Etcher for burning your images on Pendrive.
+If pendrive doesn't work as normal pendrive even after formatting, search How to format pendrive using CMD in windows.
 
 If using any USB adapter on your system, install its drivers properly to use WiFi.
 
