@@ -70,6 +70,23 @@ https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubunt
 
 5. Install mongodb using the Guide.
 https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+> wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
+> sudo apt-get install gnupg
+> wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
+> echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list
+> sudo apt-get update
+> sudo apt-get install -y mongodb-org
+
+To use mongoDB,
+> sudo service mongod start
+You should mongod service running on port 27017, to verify,
+> sudo service mongod status
+Do not close this terminal now as it will stop the mongod service
+> sudo service mongod stop
+> sudo service mongod restart
+To start a mongo shell
+> mongo
+
 
 Install curl,
 > sudo apt install curl
