@@ -1,0 +1,66 @@
+---------- IF WANT TO USE UBUNTU FOR YOUR SOFTWARE DEVELOPMENT ---------------
+
+How to Dual Boot Windows and Ubuntu?
+https://youtu.be/u5QyjHIYwTQ
+
+1. Download Ubuntu for your System from Official site.
+https://ubuntu.com/download/desktop
+
+2. Use Balena Etcher for burning your images on Pendrive.
+https://www.balena.io/etcher/
+
+If pendrive doesn't work as normal pendrive after formatting,
+Open cmd as administrator in windows & type
+> diskpart
+> list disk
+This should list all the disks, replace x by the number of pendrive.
+> select disk x
+> clean
+> create partition primary
+Now, you should your pendrive as 1 unit, Quick format it by NTFS and assign any letter by opening Format Disk in search on toolbar,
+if it doesn't work, type
+> format fs=ntfs
+> assign
+
+You are ready to install Ubuntu,
+If you are new to Ubuntu, let Ubuntu install itself.
+If you are not new to Ubuntu, Choose yourself
+Locate the portion of Disk where you want to install Ubuntu and make 3 partitions of /home (To store Ubuntu programs),
+swap area & / (To store other files).
+
+Install Wireless USB Adaptor drivers and other devices and restart.
+Open terminal,
+> sudo apt update && sudo apt upgrade
+
+
+Open Software & Updater and in Additional Drivers, select the latest version of Your Graphics Driver and save.
+Ubuntu should download and install latest Graphics drivers.
+
+3. Install VS Code, Postman, Chrome, VLC Media Player from Ubuntu Software if using Ubuntu and enable extensions like live-server, code formatter,
+etc..
+
+4. Install Node/npm from official source.
+https://nodejs.org/en/download/
+If using Ubuntu, Open terminal
+> sudo apt update
+> sudo apt install nodejs
+> sudo apt install npm
+> nodejs -v
+If you see your version, installation was successful.
+> npm -v
+If you see your version, installation was successful.
+If you face problems, see full Guide
+https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-18-04
+
+5. Install mongodb using the Guide.
+
+Install curl,
+> sudo apt install curl
+
+6. Install Git and learn basic commands of git to use github.
+
+
+
+------------------------x-------------------Thanks-------------x------------------------------x------------------------------
+
+
