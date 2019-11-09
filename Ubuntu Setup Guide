@@ -115,6 +115,18 @@ https://vitux.com/how-to-write-a-shell-script-in-ubuntu/
 Install tar xz files
 https://askubuntu.com/questions/849270/how-can-i-install-a-tar-xz-file-from-nodejs-org
 
+To Install iBall Baton USB Adaptor,
+You will need to install "make", "gcc", "kernel headers", "kernel build essentials", and "git".
+sudo apt-get install linux-headers-generic build-essential git
+Please note the first paragraph above.
+For all distros:
+git clone https://github.com/lwfinger/rtlwifi_new.git -b extended
+cd rtlwifi_new
+make
+sudo make install
+sudo modprobe -r <<YOUR WIRELESS DRIVER CODE>>
+sudo modprobe <<YOUR WIRELESS DRIVER CODE>>
+
 
 
 ------------------------x-------------------Thanks-------------x------------------------------x------------------------------
