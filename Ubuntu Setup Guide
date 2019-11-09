@@ -69,11 +69,19 @@ If you face problems, see full Guide
 https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-18-04
 
 5. Install mongodb using the Guide.
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
 
 Install curl,
 > sudo apt install curl
 
-6. Install Git and learn basic commands of git to use github.
+6. Install Git
+https://git-scm.com/download/linux
+
+Write shell scripts in Ubuntu
+https://vitux.com/how-to-write-a-shell-script-in-ubuntu/
+
+Install tar xz files
+https://askubuntu.com/questions/849270/how-can-i-install-a-tar-xz-file-from-nodejs-org
 
 
 
