@@ -1,3 +1,17 @@
+------------ Setup cheat sheets --------------------
+To install Chrome, VS Code, Postman, git, curl, 
+> sudo apt install code && sudo apt install curl
+
+To update Ubuntu
+> sudo apt update && sudo apt upgrade
+
+To install Nodejs
+> sudo apt update && sudo apt install nodejs && sudo apt install npm && nodejs -v && npm -v
+
+To install mondoDB
+> 
+
+
 ---------- IF WANT TO USE UBUNTU FOR YOUR SOFTWARE DEVELOPMENT ---------------
 
 How to Dual Boot Windows and Ubuntu?
@@ -36,12 +50,14 @@ Open terminal,
 Open Software & Updater and in Additional Drivers, select the latest version of Your Graphics Driver and save.
 Ubuntu should download and install latest Graphics drivers.
 
-3. Install VS Code, Postman, Chrome, VLC Media Player from Ubuntu Software if using Ubuntu and enable extensions like live-server, code formatter,
+3. Install VS Code, Postman, Chrome, VLC Media Player from Ubuntu Software and enable extensions like live-server, code formatter,
 etc..
 
-4. Install Node/npm from official source.
+4. Install Nodejs/npm from official source.
+> 
+
 https://nodejs.org/en/download/
-If using Ubuntu, Open terminal
+
 > sudo apt update
 > sudo apt install nodejs
 > sudo apt install npm
