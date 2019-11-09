@@ -1,0 +1,19 @@
+---------- IF WANT TO USE WINDOWS 10 FOR YOUR SOFTWARE DEVELOPMENT -----------
+
+Install Chrome to use Developer Tools
+
+Install Mozilla Firefox to surf Internet.
+
+Install VS Code editor to edit your code
+
+Install VS Code Extensions like live server, Pretty code formatter.
+
+
+7. Install Postman from the link.
+https://www.getpostman.com/downloads/
+
+To install mongoDB in windows 10
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
+Direct download link-> https://www.mongodb.com/download-center/community?jmp=docs
+To run the MongoDB service :- 
+"C:\Program Files\MongoDB\Server\4.2\bin\mongo.exe"
