@@ -52,6 +52,8 @@ Ubuntu should download and install latest Graphics drivers.
 
 3. Install VS Code, Postman, Chrome, VLC Media Player from Ubuntu Software and enable extensions like live-server, code formatter,
 etc..
+Install VS Code
+https://linuxize.com/post/how-to-install-visual-studio-code-on-ubuntu-18-04/
 
 Install Chromium
 > sudo apt-get install chromium-browser
