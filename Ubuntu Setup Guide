@@ -1,6 +1,6 @@
 ------------ Setup cheat sheets --------------------
 To install Chrome, VS Code, Postman, git, curl, 
-> sudo apt install code && sudo apt install git && sudo apt install curl
+> sudo apt install code && sudo apt install git && sudo snap install postman && sudo apt install curl
 
 To update Ubuntu
 > sudo apt update && sudo apt upgrade
